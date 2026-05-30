@@ -1,109 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso HTML e CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso HTML5 e CSS3 - José Arraes</title>
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        body{
-            background: #f4f4f4;
-            color: #333;
-        }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+}
 
-        header{
-            background: #0d6efd;
-            color: white;
-            text-align: center;
-            padding: 40px 20px;
-        }
+header{
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
 
-        header h1{
-            margin-bottom: 10px;
-        }
+header h1{
+    margin-bottom:10px;
+}
 
-        main{
-            max-width: 1000px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+}
 
-        .container{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-        }
+section{
+    background:white;
+    padding:25px;
+    margin-bottom:30px;
+    border-radius:10px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
 
-        .card{
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 2px 8px rgba(0,0,0,.1);
-            text-align: center;
-        }
+h2{
+    color:#0d6efd;
+    margin-bottom:20px;
+}
 
-        .card h2{
-            margin-bottom: 15px;
-        }
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:10px;
+}
 
-        .card a{
-            display: inline-block;
-            text-decoration: none;
-            background: #0d6efd;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            transition: .3s;
-        }
+a{
+    display:block;
+    text-decoration:none;
+    background:#f0f0f0;
+    color:#333;
+    padding:12px;
+    border-radius:5px;
+    text-align:center;
+    transition:.3s;
+}
 
-        .card a:hover{
-            background: #0b5ed7;
-        }
+a:hover{
+    background:#0d6efd;
+    color:white;
+}
 
-        footer{
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-            color: #666;
-        }
-    </style>
+footer{
+    text-align:center;
+    padding:20px;
+    color:#666;
+}
+</style>
 </head>
 <body>
 
 <header>
     <h1>Curso HTML5 e CSS3</h1>
-    <p>Repositório de estudos e projetos</p>
+    <p>Projetos, Exercícios e Desafios</p>
 </header>
 
 <main>
-    <div class="container">
 
-        <div class="card">
-            <h2>📚 Exercícios</h2>
-            <p>Acesse todos os exercícios realizados durante o curso.</p>
-            <br>
-            <a href="EXERCICIOS/">Abrir Exercícios</a>
-        </div>
+<section>
+<h2>📚 Exercícios</h2>
 
-        <div class="card">
-            <h2>🚀 Desafios</h2>
-            <p>Veja os desafios desenvolvidos durante os estudos.</p>
-            <br>
-            <a href="DESAFIOS/">Abrir Desafios</a>
-        </div>
+<div class="grid">
+<a href="EXERCICIOS/EX001/">EX001</a>
+<a href="EXERCICIOS/EX002/">EX002</a>
+<a href="EXERCICIOS/EX003/">EX003</a>
+<a href="EXERCICIOS/EX004/">EX004</a>
+<a href="EXERCICIOS/EX005/">EX005</a>
+<a href="EXERCICIOS/EX006/">EX006</a>
+<a href="EXERCICIOS/EX007/">EX007</a>
+<a href="EXERCICIOS/EX008/">EX008</a>
+<a href="EXERCICIOS/ex009/">EX009</a>
+<a href="EXERCICIOS/ex010/">EX010</a>
+<a href="EXERCICIOS/ex011/">EX011</a>
+<a href="EXERCICIOS/ex012/">EX012</a>
+<a href="EXERCICIOS/ex013/">EX013</a>
+<a href="EXERCICIOS/ex014/">EX014</a>
+<a href="EXERCICIOS/ex015/">EX015</a>
+<a href="EXERCICIOS/ex016/">EX016</a>
+<a href="EXERCICIOS/ex017/">EX017</a>
+<a href="EXERCICIOS/ex018/">EX018</a>
+<a href="EXERCICIOS/ex019/">EX019</a>
+<a href="EXERCICIOS/ex020/">EX020</a>
+<a href="EXERCICIOS/ex021/">EX021</a>
+<a href="EXERCICIOS/ex022/">EX022</a>
+<a href="EXERCICIOS/ex023/">EX023</a>
+<a href="EXERCICIOS/EX024/">EX024</a>
+<a href="EXERCICIOS/EX025/">EX025</a>
+<a href="EXERCICIOS/EX026/">EX026</a>
+</div>
 
-    </div>
+</section>
+
+<section>
+<h2>🚀 Desafios</h2>
+
+<div class="grid">
+<a href="DESAFIOS/d001/">D001</a>
+<a href="DESAFIOS/d002/">D002</a>
+<a href="DESAFIOS/d003/">D003</a>
+<a href="DESAFIOS/d004/">D004</a>
+<a href="DESAFIOS/d005/">D005</a>
+<a href="DESAFIOS/d006/">D006</a>
+<a href="DESAFIOS/d007/">D007</a>
+<a href="DESAFIOS/d008/">D008</a>
+<a href="DESAFIOS/d009/">D009</a>
+<a href="DESAFIOS/d010/">D010</a>
+<a href="DESAFIOS/d010%20-%20sozinho/">D010 Sozinho</a>
+<a href="DESAFIOS/d011/">D011</a>
+<a href="DESAFIOS/d012/">D012</a>
+<a href="DESAFIOS/d013/">D013</a>
+<a href="DESAFIOS/d014/">D014</a>
+</div>
+
+</section>
+
 </main>
 
 <footer>
-    <p>Desenvolvido por José Arraes</p>
+    <p>© José Arraes - Curso HTML5 e CSS3</p>
 </footer>
 
 </body>
